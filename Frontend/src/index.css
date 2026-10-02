@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@theme {
+  --color-warm-ivory: #F2E4D5;
+  --color-soft-sand: #D9C6B7;
+  --color-muted-taupe: #B89A7D;
+  --color-mocha: #8B6F5B;
+  --color-deep-earth: #5A4D3B;
+  --color-espresso: #3B2A1C;
+
+  /* Functional warm-palette tints */
+  --color-canvas: #FAF6F0;
+  --color-canvas-subtle: #F3ECE3;
+  --color-card-clean: #FFFFFF;
+  --color-card-warm: #FCF9F5;
+  --color-border-subtle: #E8DCD1;
+  --color-border-sand: #D9C6B7;
+  --color-text-espresso: #3B2A1C;
+  --color-text-deep-earth: #5A4D3B;
+  --color-text-mocha: #8B6F5B;
+}
+
+@layer base {
+  :root {
+    --background: 34 33% 96%;
+    --foreground: 26 35% 17%;
+    --card: 0 0% 100%;
+    --card-foreground: 36 21% 29%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 26 35% 17%;
+    --primary: 24 21% 45%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 34 50% 90%;
+    --secondary-foreground: 26 35% 17%;
+    --muted: 27 27% 88%;
+    --muted-foreground: 24 21% 45%;
+    --accent: 34 50% 90%;
+    --accent-foreground: 26 35% 17%;
+    --destructive: 350 89% 60%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 27 27% 78%;
+    --input: 27 27% 78%;
+    --ring: 24 21% 45%;
+  }
+
+  body {
+    background-color: #FAF6F0;
+    color: #3B2A1C;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    min-height: 100vh;
+    margin: 0;
+  }
+}

@@ -1,0 +1,1 @@
+export { PatientKnowledgeView } from './PatientKnowledgeView';
